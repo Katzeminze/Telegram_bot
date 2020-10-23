@@ -8,7 +8,7 @@ token_id = r'1353826012:AAGTZFZwYxJcJoYFReixbCECeungqj2m9pA'
 class BotHandler:
     def __init__(self, token):
         self.token = token
-        self.api_url = "https://api.telegram.org/bot{}".format(token)
+        self.api_url = "https://api.telegram.org/bot{}/".format(token)
 
 ###################################################
 # Asks for update and return responce in json format
