@@ -5,6 +5,7 @@ import datetime
 token_id = r'1353826012:AAGTZFZwYxJcJoYFReixbCECeungqj2m9pA'
 
 
+# Class
 class BotHandler:
     def __init__(self, token):
         self.token = token
